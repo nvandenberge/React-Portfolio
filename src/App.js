@@ -1,7 +1,9 @@
+import React from 'react';
 import './App.css';
 import { HashRouter, Route } from "react-router-dom";
-import About from './pages/About';
 import Header from './components/Header/Header'
+import Wrapper from './components/Wrapper/Wrapper';
+import About from './pages/About';
 
 
 function App() {
@@ -9,12 +11,12 @@ function App() {
     <HashRouter basename='/'>
       <div>
         <Header />
-        {/* <Wrapper> */}
+        <Wrapper>
           <Route exact path="/" component={About} />
           <Route exact path="/about" component={About} />
           {/* <Route exact path="/portfolio" component={Portfolio} /> */}
           {/* <Route exact path="/contact" component={Contact} />  */}
-        {/* </Wrapper> */}
+        </Wrapper>
         {/* <Footer /> */}
       </div>
     </HashRouter>

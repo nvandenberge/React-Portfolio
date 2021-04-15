@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <div>
       <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <span class="navbar-brand">Nick Vandenberge</span>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+          <span className="navbar-brand">Nick Vandenberge</span>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-toggle="collapse"
             data-target="#navbarText"
@@ -17,25 +17,25 @@ const Header = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-end"
+            className="collapse navbar-collapse justify-content-end"
             id="navbarText"
           >
-            <ul class="nav navbar-nav float-right">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">
+            <ul className="nav navbar-nav float-right">
+              <li className="nav-item">
+                <a className="nav-link" href="index.html">
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">
+              <li className="nav-item">
+                <a className="nav-link" href="portfolio.html">
                   Portfolio
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">
+              <li className="nav-item">
+                <a className="nav-link" href="contact.html">
                   Contact
                 </a>
               </li>
