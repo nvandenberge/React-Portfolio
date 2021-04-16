@@ -1,0 +1,9 @@
+#footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  background-color: #f5f5f5;
+  color: #c5c6c7;
+  font-size: small;
+  z-index: 1;
+}

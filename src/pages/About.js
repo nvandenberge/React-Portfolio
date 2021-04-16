@@ -1,5 +1,5 @@
 import React from "react";
-import NickHeadshot from '../images/ProfilePic.jpg'
+import NickHeadshot from '../assets/images/ProfilePic.jpg'
 
 const About = () => {
   return (

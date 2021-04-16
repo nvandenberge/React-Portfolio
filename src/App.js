@@ -1,14 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 import { HashRouter, Route } from "react-router-dom";
-import Header from './components/Header/Header'
-import Wrapper from './components/Wrapper/Wrapper';
-import About from './pages/About';
-
+import Header from "./components/Header/Header";
+import Wrapper from "./components/Wrapper/Wrapper";
+import About from "./pages/About";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <HashRouter basename='/'>
+    <HashRouter basename="/">
       <div>
         <Header />
         <Wrapper>
@@ -17,7 +17,7 @@ function App() {
           {/* <Route exact path="/portfolio" component={Portfolio} /> */}
           {/* <Route exact path="/contact" component={Contact} />  */}
         </Wrapper>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </HashRouter>
   );
