@@ -1,5 +1,6 @@
 import React from "react";
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -24,20 +25,20 @@ const Header = () => {
             id="navbarText"
           >
             <ul className="nav navbar-nav float-right">
-              <li className="nav-item">
-                <a className="nav-link" href="index.html">
+            <li className="nav-item">
+                <Link to='/about' className="nav-link">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="portfolio.html">
+                <Link to='/portfolio' className="nav-link">
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="contact.html">
-                  Contact
-                </a>
+                <Link to='/contact' className="nav-link">
+                  Conatct
+                </Link>
               </li>
             </ul>
           </div>
