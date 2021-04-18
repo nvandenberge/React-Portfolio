@@ -1,29 +1,38 @@
-
 * {
-    box-sizing: border-box;
-  }
-  
-  *:before,
-  *:after {
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    min-height: 100vh;
-    position: relative;
-    background-color: #1f2833 !important; /* Overide Bootstrap */
-  }
+  box-sizing: border-box;
+}
 
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  position: relative;
+  background-color: #1f2833 !important; /* Overide Bootstrap */
+}
+
+#headshotImg {
+  margin: 0 20px 10px 0;
+}
+
+.content {
+  border-top: 2px solid lightgray;
+  padding-top: 1rem;
+}
+
+.portfolioContainer {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 992px) {
   .content {
-    border-top: 2px solid lightgray;
-    padding-top: 1rem;
+    margin-bottom: 125px;
   }
-
-  .portfolioContainer {
-    min-height: 100vh;
-    overflow: hidden;
-    display: block;
-    position: relative;
-    padding-bottom: 100px;
-  }
+}

@@ -7,14 +7,6 @@ h1 {
   letter-spacing: 0.15em;
 }
 
-#headshotImg {
-  margin: 0 20px 10px 0;
-}
-
-#headshotImg > a:hover {
-  color: #66fcf1 !important;
-}
-
 /* Underline effect for navbar items */
 .nav-item > a {
   color: #fff;

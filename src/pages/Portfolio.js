@@ -13,7 +13,7 @@ const Portfolio = () => {
       <main className="container mt-5">
         <div className="row">
           <section className="col-md-9">
-            <div className="page-header">
+            <div>
               <h1>Portfolio</h1>
             </div>
             <div className="content">

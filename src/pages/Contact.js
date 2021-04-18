@@ -6,7 +6,7 @@ const Contact = () => {
       <main className="container mt-5">
         <div className="row">
           <section className="col-md-8">
-            <div className="page-header">
+            <div>
               <h1>Contact</h1>
             </div>
             <div className="content">

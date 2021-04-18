@@ -7,7 +7,7 @@ const About = () => {
       <main className="container mt-5 text-white">
         <div className="row">
           <section className="col-md-8">
-            <div className="page-header">
+            <div>
               <h1>About Me</h1>
             </div>
             <div className="content">
