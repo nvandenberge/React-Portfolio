@@ -9,10 +9,11 @@ const Footer = () => {
         <i className="bi bi-envelope"> nvandenberge14@gmail.com</i> &nbsp;|&nbsp;&nbsp;
         <i className="bi bi-file-arrow-down">
         {/* Bug where it is downloading blank file, will fix and add option to view PDF in browser window */}
-          <a href='src/assets/files/Nick Vandenberge WebDev Resume.pdf' target="_blank" download>
+          <a download href="src/assets/files/Nick-Vandenberge-WebDev-Resume.pdf">
             Download Resume
           </a>
         </i>
+
         <br />
         <small>&copy; Copyright 2021 Nick Vandenberge</small>
       </div>
