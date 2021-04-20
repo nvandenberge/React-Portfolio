@@ -8,9 +8,8 @@ const Footer = () => {
         <i className="bi bi-telephone"> 443.878.6517</i> |
         <i className="bi bi-envelope"> nvandenberge14@gmail.com</i> |&nbsp;
         <i className="bi bi-file-arrow-down">
-        {/* Bug where it is downloading blank file, will fix and add option to view PDF in browser window */}
-          <a download href="src/assets/files/Nick-Vandenberge-WebDev-Resume.pdf">
-            Download Resume
+          <a href="https://drive.google.com/file/d/1rSbhBjtK7w5mxlRQAdYurR57LCgHcjhK/view?usp=sharing" target="_blank" rel="noreferrer">
+            Resume
           </a>
         </i>
 
