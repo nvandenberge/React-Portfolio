@@ -5,7 +5,7 @@ import eatDaBurgerImage from "../assets/images/portfolio/eatDaBurger.png";
 import gottaGoImage from "../assets/images/portfolio/gottaGO.png";
 import javascriptQuizImage from "../assets/images/portfolio/JavascriptQuizApp.png";
 import planDayImage from "../assets/images/portfolio/LetsPlanADayApp.png";
-import weatherDashboardImage from "../assets/images/portfolio/WeatherDashboard.png";
+import googleBooksSearch from "../assets/images/portfolio/Google-Books-Search-2.png";
 
 const Portfolio = () => {
   return (
@@ -40,7 +40,7 @@ const Portfolio = () => {
                 />
                 <Project
                   thumbnail={planDayImage}
-                  altText={"Let's Plan a Day! App"}
+                  altText={"Let's Plan a Day App"}
                   deployedLink={"https://nvandenberge.github.io/LetsPlanADay/"}
                   sourceCode={"https://github.com/nvandenberge/LetsPlanADay"}
                 />
@@ -53,10 +53,10 @@ const Portfolio = () => {
                   sourceCode={"https://github.com/nvandenberge/JavascriptQuizApp"}
                 />
                 <Project
-                  thumbnail={weatherDashboardImage}
-                  altText={"Weather Dashboard App"}
-                  deployedLink={"https://nvandenberge.github.io/WeatherDashboard/"}
-                  sourceCode={"https://github.com/nvandenberge/WeatherDashboard"}
+                  thumbnail={googleBooksSearch}
+                  altText={"Google Books Search App"}
+                  deployedLink={"https://evening-savannah-13786.herokuapp.com/#/"}
+                  sourceCode={"https://github.com/nvandenberge/Google-Books-Search"}
                 />
               </div>
             </div>
