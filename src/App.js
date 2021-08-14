@@ -6,7 +6,6 @@ import Header from "./components/Header/Header";
 import Wrapper from "./components/Wrapper/Wrapper";
 import About from "./pages/About";
 import Footer from "./components/Footer/Footer";
-import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
           <Switch>
           <Route exact path={["/", "/About"]} component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/contact" component={Contact} /> 
           </Switch>
         </Wrapper>
         <Footer />
