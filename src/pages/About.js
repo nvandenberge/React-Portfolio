@@ -1,5 +1,5 @@
 import React from "react";
-import NickHeadshot from '../assets/images/ProfilePic.jpg'
+import NickHeadshot from "../assets/images/ProfilePic.jpg";
 
 const About = () => {
   return (
@@ -21,31 +21,25 @@ const About = () => {
               My name is Nick&#8218; and I am a Software Engineer currently
               living in Baltimore&#8218; MD. I have a Bachelor of Science in
               Computer Information Systems from Stevenson University. While
-              working as a Software Support Specialist between 2015&#8211;2019 I
+              working as a Software Support Specialist I
               found myself with a growing interest in how the software was
-              developed. I began self&#8211;studying web development in my spare
-              time and decided to officially commit to it in 2018 when I took an
-              8&#8211;week coding bootcamp in Baltimore. In 2019 I started
-              developing part&#8211;time for the same organization I was
-              employed for by working on small bugs and features while
-              maintaining my position as a Software Support Specialist. In 2020
-              I was promoted to full&#8211;time Software Engineer.
-              <br />
-              <br />
-              While working as a Software Engineer I was provided with the
-              opportunity to learn more about full&#8211;stack development by
-              enrolling in a 24&#8211;week coding bootcamp at Johns Hopkins
-              University to learn more about how back&#8211;end technologies
-              interact with front&#8211;end. In my free time&#8218; I like to
-              study full&#8211;stack development&#8218; exercise&#8218; and play
-              video games with friends. I am very passionate about Web
-              Development&#8218; and strive to better myself as a developer. For
-              more information&#8218; check out my&nbsp;
-              <a href="https://github.com/nvandenberge" target="_blank" rel="noreferrer">
+              developed. In 2019 I started developing part&#8211;time for the
+              same organization I was employed for by working on small bugs and
+              features while maintaining my position as a Software Support
+              Specialist. In 2021, after completing a 24-week full&#8211;stack
+              bootcamp at Johns Hopkins University I have been working as a
+              full&#8211;time Software Engineer. In my free time&#8218; I like
+              to study development&#8218; exercise&#8218; cook&#8218; and play
+              video games. For more information&#8218; check out my&nbsp;
+              <a
+                href="https://github.com/nvandenberge"
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub
               </a>
               &nbsp;and&nbsp;
-               <a
+              <a
                 href="https://www.linkedin.com/in/nicholasvandenberge/"
                 target="_blank"
                 rel="noreferrer"
@@ -53,6 +47,8 @@ const About = () => {
                 LinkedIn
               </a>
               &#33;
+              <br />
+              <br />
             </div>
           </section>
         </div>
